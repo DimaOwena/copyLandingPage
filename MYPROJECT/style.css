@@ -1,0 +1,355 @@
+* {
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  color: white;
+  font-size: 60px;
+  font-family: "PT Serif", serif;
+}
+
+
+h1 {
+  font-weight: bolder;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+h2 {
+  font-weight: lighter;
+  font-family: "PT Serif", serif;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+#sec-h1, #sec-h2{
+  margin-left: 45px;
+}
+body {
+	margin:0;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+#center-logo {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+} 
+
+#logo {
+  text-align: center;
+  position: absolute;
+  width: 290px;
+  height: 162px;
+  background-color: white; 
+  top: 0;
+  cursor: pointer;
+}
+
+#logoimg {
+	margin-top: 23px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	cursor: pointer;
+}
+.triangle-up {
+  /*position: fixed;*/
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 389px solid transparent;
+  border-right: 389px solid transparent;
+  border-bottom: 430px solid rgb(16,16,16,0.5);
+  bottom: 0;
+  left: 234px;
+
+}
+.triangle-up2{
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 435px solid transparent;
+  border-right: 435px solid transparent;
+  border-bottom: 480px solid rgb(16,16,16,0.5);
+  bottom: 0;
+  left: -35px;
+}
+.triangle-up3{
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 389px solid transparent;
+  border-right: 389px solid transparent;
+  border-bottom: 430px solid rgb(16,16,16,0.5);
+  bottom: 0;
+  left: -210px;
+}
+
+#covid {
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 135px;
+	height: 94px;
+	cursor: pointer;
+}
+.headContent {
+  position: fixed;
+  bottom: 0;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#logo-h {
+  cursor: pointer;
+  color: rgb(0,0,155);
+  font-size: 38px;
+  font-weight: bolder;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: -5px;
+  padding-top: 0px;
+  filter: brightness(95%);
+}
+
+
+#mini-logo-h {
+  color: rgb(105,105,105);
+  font-size: 9px;
+  padding-top: 0;
+  margin-top: 0;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-family: "Montserrat Extra Bold", sans-serif;
+  cursor: pointer;
+}
+#schoolVideo {
+  position: fixed;
+  bottom: : 0;
+  right:0;
+  top: 37px;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+/*.dot*/
+ #pause-bg, #s-w, #s-b, #p-w, #p-b{
+  position: fixed;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  top: 372px;
+  left:69px;
+  cursor: pointer;
+} 
+#s-w {
+background-color: #000066;
+}
+#s-b {
+background-color: white; 
+}
+#p-w {
+background-color: #000066;
+}
+#p-b {
+background-color: white;
+}
+#psc, #start-b {
+  position: fixed;
+  top: 379px;
+  left: 76px;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  margin-left: -8px;
+  margin-top: -2px;
+  width: 40px;
+  display: inline-block;
+  cursor: pointer;
+  background-color: rgb(0,0,0,0);
+  
+}
+
+#pause-black{
+  position: fixed;
+  top: 379px;
+  left: 76px;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: rgb(0,0,0,0);
+  cursor: pointer;
+
+}
+#pause-w {
+position: fixed;
+  top: 379px;
+  left: 76px;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: rgb(0,0,0,0);
+  cursor: pointer;
+}
+#start-w {
+  position: fixed;
+  top: 379px;
+  left: 76px;
+  height: 25px;
+  width: 35px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: -5px;
+  margin-top: -2px;
+  cursor: pointer;
+  background-color: rgb(0,0,0,0);
+  
+}
+#triang {
+	width: 10.5px;
+	height: 8.5px;
+	margin-left: 3px;
+	margin-bottom: 4px;
+}
+#main-nav {
+  position: fixed;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 30px;
+  overflow: hidden;
+  background-color: #000066;
+}
+
+#search-li {
+	cursor: pointer;
+	width: 14px;
+	height: 14px;
+
+} 
+#nav-div {
+    position:fixed;
+    top:0;
+    left:0;
+}
+li {
+  float: left;
+  cursor: pointer;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 20px; 
+  text-decoration: none;
+  cursor: pointer;
+
+}
+.navtwo a {
+	font-size: 19.5px;
+	cursor: pointer;
+}
+.gray a {
+  padding-left: 30px;
+ /* color: rgb(169,169,169);*/
+ margin-right: -18px;
+  color: rgb(208,208,208);
+  font-weight: bold;
+  font-size: 16px;
+
+}
+
+li a:hover {
+  color: rgb(218,165,32);
+}
+#fElement {
+	padding-left: 20px;
+}
+#first-sec {
+  padding-right: 490px;
+}
+#first-sec2  {
+	padding-right: 440px;
+}
+ 
+body{
+	background-color: #000066 ;  /*rgb(0,0,160);*/
+}
+#sec-nav {
+  position: fixed;
+  list-style-type: none;
+  text-decoration: none;
+  margin-top: 65px;
+  left: -5px;
+
+}
+li {
+  font-family:  "Montserrat Extra Bold", sans-serif;
+  font-weight: bold;
+  transform: scale(1, 0.8);
+  cursor: pointer;
+}
+/*Label*/
+
+#up-arrow{
+	width: 25px;
+	height: 32px;
+    padding-right: 5px;
+    cursor: pointer;
+}  
+
+
+#news {
+	position: fixed;
+	color: white;
+	right: 68.5px;
+	bottom: 0px;
+	font-weight: bolder;
+	width: 265px;
+	height: 59.5px;
+	background-color:rgb(0,0,160);
+	font-size: 22px;
+	display: flex;
+    justify-content: center;
+	align-items: center;
+    text-align: center;
+    font-family:  "Montserrat Extra Bold", sans-serif;
+    transform: scale(1, 0.95); 
+    cursor: pointer;
+    
+}
+/* //Bell Icon// */
+.rect {
+	position: fixed;
+	width: 40px;
+	height: 30px;
+	justify-content: center;
+	left: 0;
+	top:300px;
+	display: flex;
+	align-items: center;
+	background-color: rgb(60,60,60,0.7); 
+}
+
+.sec-rect {
+	position: fixed;
+	width: 40px;
+	height: 30px;
+	justify-content: center;
+	left: 0;
+	top:300px;
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+	background-color: rgb(20,20,20,0.5); 
+}
+
+#w-bell {
+	width: 20px;
+	height: 20px;
+}
+
